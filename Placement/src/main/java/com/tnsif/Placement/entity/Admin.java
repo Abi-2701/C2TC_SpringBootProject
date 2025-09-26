@@ -9,7 +9,7 @@ import jakarta.persistence.Table;
 
 
 @Entity
-@Table(name = "admin") //Explicit table name
+@Table(name = "admins") //Explicit table name
 public class Admin {
 
 	@Id
@@ -57,4 +57,5 @@ public class Admin {
     }
 
 }
+
 
